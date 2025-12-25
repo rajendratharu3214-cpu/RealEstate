@@ -4,3 +4,6 @@ cd client
 npx tailwindcss init -p
 3. git init
 git add .
+git pull origin main --no-rebase --allow-unrelated-histories(Problem in git code this help me to solve)
+4. npm i react-router-dom
+then create page Home.jsx SignIn.jsx then add to app.jsx
